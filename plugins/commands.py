@@ -349,7 +349,7 @@ async def start(client, message):
             ]]
             await message.reply_photo(
                 photo="https://graph.org/file/6928de1539e2e80e47fb8.jpg",
-                caption=f"<b>Hey {message.from_user.mention},\n\n𝑌𝑜𝑢 𝐴𝑟𝑒 𝑆𝑢𝑐𝑐𝑒𝑠𝑠𝑓𝑢𝑙 𝑉𝑒𝑟𝑖𝑓𝑖𝑒𝑑 ! 𝑁𝑜𝑤 𝑌𝑜𝑢 𝐻𝑎𝑣𝑒 𝑈𝑛𝑙𝑖𝑚𝑖𝑡𝑒𝑑 𝐴𝑐𝑐𝑒𝑠𝑠 𝐹𝑜𝑟 24 𝐻𝑜𝑢𝑟𝑠.\n\n<blockquote>आप सफलतापूर्वक सत्यापित हो गए हैं अब आप 24 घंटे तक 𝐷𝑖𝑟𝑒𝑐𝑡 𝑀𝑜𝑣𝑖𝑒 की 𝐹𝑖𝑙𝑒𝑠 प्राप्त कर सकते हैं।</blockquote></b>",
+                caption=f"<b>Hey {message.from_user.mention},\n\n𝑌𝑜𝑢 𝐴𝑟𝑒 𝑆𝑢𝑐𝑐𝑒𝑠𝑠𝑓𝑢𝑙 𝑉𝑒𝑟𝑖𝑓𝑖𝑒𝑑 ! 𝑁𝑜𝑤 𝑌𝑜𝑢 𝐻𝑎𝑣𝑒 𝑈𝑛𝑙𝑖𝑚𝑖𝑡𝑒𝑑 𝐴𝑐𝑐𝑒𝑠𝑠 𝐹𝑜𝑟 8 𝐻𝑜𝑢𝑟𝑠.\n\n<blockquote>आप सफलतापूर्वक सत्यापित हो गए हैं अब आप 8 घंटे तक 𝐷𝑖𝑟𝑒𝑐𝑡 𝑀𝑜𝑣𝑖𝑒 की 𝐹𝑖𝑙𝑒𝑠 प्राप्त कर सकते हैं।</blockquote></b>",
                 reply_markup=InlineKeyboardMarkup(btn)
             )
             await verify_user(client, userid, token) 
