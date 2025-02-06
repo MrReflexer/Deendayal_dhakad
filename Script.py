@@ -20,6 +20,7 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>
 ├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
 ├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
 ├⍟ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>ʜᴇʀᴏᴋᴜ</a> 
+├⍟ Lɪɴᴋs ᴍᴏɴᴇᴛɪᴢᴀᴛɪᴏɴ : <a href='https://arolinks.com/ref/MrReflexer'>ᴀʀᴏʟɪɴᴋs</a> 
 ├⍟ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ4.8 [ ꜱᴛᴀʙʟᴇ ]
 ╰───────────────⍟</b>"""
         
