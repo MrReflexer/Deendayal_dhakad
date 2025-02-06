@@ -77,7 +77,7 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 # Verification Settings
 # ============================
 VERIFY = bool(environ.get('VERIFY', True))  # Verification On (True) / Off (False)
-DEENDAYAL_VERIFY_EXPIRE = int(environ.get('DEENDAYAL_VERIFY_EXPIRE', 24))  # Add time in hours
+DEENDAYAL_VERIFY_EXPIRE = int(environ.get('DEENDAYAL_VERIFY_EXPIRE', 6))  # Add time in hours
 DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-1002433729885'))  # Log channel id (make sure bot is admin)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/CastleMoviesIndia')  # How to open tutorial link for verification
 
@@ -85,8 +85,8 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/CastleMoviesIndia')  
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortner.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'f56d0ad14fc5880684f83a905ae8c7e8d3a8d46c')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '1f61d49dc2eaa30b7a665dcbb7c1daf27eed1520')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/dreamcinezone')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
