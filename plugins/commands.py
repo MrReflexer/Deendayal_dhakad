@@ -104,10 +104,10 @@ async def start(client, message):
                 caption = (
                     f"👋 Hello {message.from_user.mention}\n\n"
                     "Yᴏᴜ ʜᴀᴠᴇ ɴᴏᴛ Jᴏɪɴᴇᴅ ᴀʟʟ ᴏᴜʀ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟs.\n"
-                    "Pʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ **Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟs** ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴀɴᴅ ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ ᴊᴏɪɴ **ᴀʟʟ** ᴄʜᴀɴɴᴇʟs ʟɪsᴛᴇᴅ.\n"
+                    "Pʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟs ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴀɴᴅ ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ ᴊᴏɪɴ ᴀʟʟ ᴄʜᴀɴɴᴇʟs ʟɪsᴛᴇᴅ.\n"
                     "Aꜰᴛᴇʀ ᴛʜᴀᴛ, ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɢᴀɪɴ.\n\n"
-                    "आपने हमारे **सभी Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟs** को ज्वाइन नहीं किया है।\n"
-                    "**Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟs** वाले बटन पर Cʟɪᴄᴋ करें। और सुनिश्चित करें कि आपने **सभी चैनल्स** को ज्वाइन किया है।\n"
+                    "आपने हमारे सभी Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟs को ज्वाइन नहीं किया है।\n"
+                    "Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟs" वाले बटन पर Cʟɪᴄᴋ करें। और सुनिश्चित करें कि आपने **सभी चैनल्स** को ज्वाइन किया है।\n"
                     "इसके बाद आप फिर से ᴛʀʏ करें।..")
                 await message.reply_photo(
                     photo=random.choice(FSUB_PICS),
@@ -345,7 +345,7 @@ async def start(client, message):
             btn = [[
                 InlineKeyboardButton("Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Gᴇᴛ Fɪʟᴇ..🍁", url=f"https://telegram.me/{temp.U_NAME}?start=files_{fileid}")
             ],[
-                InlineKeyboardButton("🏃Bᴀᴄᴋ Tᴏ Gʀᴏᴜᴘ", url=GRP_LNK)
+                InlineKeyboardButton("Bᴀᴄᴋ Tᴏ Gʀᴏᴜᴘ 🏃‍♂️", url=GRP_LNK)
             ]]
             await message.reply_photo(
                 photo="https://graph.org/file/6928de1539e2e80e47fb8.jpg",
