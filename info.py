@@ -61,9 +61,9 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'paytobishal@fam')
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://wewen39881:MYYgdn8VJXVPlKDJ@evoflix.jjomq.mongodb.net/?retryWrites=true&w=majority&appName=evoflix")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://yalepef952:fYnSgKlXtD7Adwd4@cluster0.jnww0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "evoflix")
+DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Deendayal_files')
 
 # ============================
