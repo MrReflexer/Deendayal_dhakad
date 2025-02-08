@@ -283,7 +283,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     CAPTION = """<b><a href="https://t.me/Evoflix_Original">{file_name}</a></b>\n\n<b>⚡ ᴘᴏᴡᴇʀᴅ ʙʏ : <a href=https://t.me/Evoflix_Original>[Eᴠᴏꜰʟɪx ᴏʀɪɢɪɴᴀʟ 🍿]</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
-<b>🏷Tɪᴛʟᴇ: {title}
+<b>🏷 Tɪᴛʟᴇ: {title}
 
 🎭 Gᴇɴʀᴇs: {genres}
 
